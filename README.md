@@ -10,7 +10,7 @@ This repository contains the original code used to generate the figures presente
 - Python-based analyses utilized the Docker image `rnakato/shortcake_light_3.0.0` (https://hub.docker.com/r/rnakato/shortcake_light)
 
 ## How to use this repository?
-Download all necessary files and scripts from here: https://gitlab.dzne.de/ag-beyer/gemuend_cmv_2025 <br>
+**Download all necessary files and scripts from here: https://gitlab.dzne.de/ag-beyer/gemuend_cmv_2025** <br>
 To reproduce the figures generated in R, begin with the script `Part1_CMV-Dex_Multiome.Rmd`, which uses the preprocessed Seurat object `seurat_filt.h5Seurat`. <br>
 For the Python-based analyses, continue with the notebook `Part2_CMV-Dex_Multiome.ipynb`. This script can be rerun by loading the files `304_CMV_airr_merged.tsv` and `mudata_fromseurat.h5mu`.
 
